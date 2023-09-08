@@ -167,8 +167,8 @@ devDependencies:
     specifier: ^9.0.2
     version: 9.0.2
   '@typescript-eslint/eslint-plugin':
-    specifier: ^5.59.6
-    version: 5.59.6(@typescript-eslint/parser@5.59.6)(eslint@8.40.0)(typescript@5.1.6)
+    specifier: ^6.0.0
+    version: 6.6.0(@typescript-eslint/parser@5.59.6)(eslint@8.40.0)(typescript@5.1.6)
   '@typescript-eslint/parser':
     specifier: ^5.59.6
     version: 5.59.6(eslint@8.40.0)(typescript@5.1.6)
@@ -2464,7 +2464,7 @@ packages:
       '@opentelemetry/resource-detector-aws': 1.3.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/resource-detector-container': 0.3.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/resource-detector-gcp': 0.29.0(@opentelemetry/api@1.4.1)
-      '@opentelemetry/resources': 1.15.1(@opentelemetry/api@1.4.1)
+      '@opentelemetry/resources': 1.15.2(@opentelemetry/api@1.4.1)
       '@opentelemetry/sdk-node': 0.41.1(@opentelemetry/api@1.4.1)
       tslib: 2.5.2
     transitivePeerDependencies:
@@ -2578,9 +2578,9 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.1(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
@@ -2595,8 +2595,8 @@ packages:
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
       '@opentelemetry/propagator-aws-xray': 1.3.0(@opentelemetry/api@1.4.1)
-      '@opentelemetry/resources': 1.15.1(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/resources': 1.15.2(@opentelemetry/api@1.4.1)
+      '@opentelemetry/semantic-conventions': 1.15.2
       '@types/aws-lambda': 8.10.81
       tslib: 2.5.2
     transitivePeerDependencies:
@@ -2610,10 +2610,10 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.1(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
       '@opentelemetry/propagation-utils': 0.30.0(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
@@ -2641,7 +2641,7 @@ packages:
     dependencies:
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
@@ -2654,9 +2654,9 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.1(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       '@types/connect': 3.4.35
       tslib: 2.5.2
     transitivePeerDependencies:
@@ -2684,7 +2684,7 @@ packages:
     dependencies:
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       semver: 7.5.4
       tslib: 2.5.2
     transitivePeerDependencies:
@@ -2698,9 +2698,9 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.1(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       '@types/express': 4.17.13
       tslib: 2.5.2
     transitivePeerDependencies:
@@ -2714,9 +2714,9 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.1(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
@@ -2729,9 +2729,9 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.1(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
@@ -2745,7 +2745,7 @@ packages:
     dependencies:
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       '@types/generic-pool': 3.8.1
       tslib: 2.5.2
     transitivePeerDependencies:
@@ -2785,9 +2785,9 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.1(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       '@types/hapi__hapi': 20.0.9
       tslib: 2.5.2
     transitivePeerDependencies:
@@ -2818,7 +2818,7 @@ packages:
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
       '@opentelemetry/redis-common': 0.36.0
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       '@types/ioredis4': /@types/ioredis@4.28.10
       tslib: 2.5.2
     transitivePeerDependencies:
@@ -2833,7 +2833,7 @@ packages:
     dependencies:
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
@@ -2846,9 +2846,9 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.1(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       '@types/koa': 2.13.6
       '@types/koa__router': 8.0.7
       tslib: 2.5.2
@@ -2877,7 +2877,7 @@ packages:
     dependencies:
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       '@types/memcached': 2.2.7
       tslib: 2.5.2
     transitivePeerDependencies:
@@ -2893,7 +2893,7 @@ packages:
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
       '@opentelemetry/sdk-metrics': 1.15.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
@@ -2906,9 +2906,9 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.1(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
@@ -2922,7 +2922,7 @@ packages:
     dependencies:
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
@@ -2936,7 +2936,7 @@ packages:
     dependencies:
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       '@types/mysql': 2.15.19
       tslib: 2.5.2
     transitivePeerDependencies:
@@ -2951,7 +2951,7 @@ packages:
     dependencies:
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
@@ -2965,7 +2965,7 @@ packages:
     dependencies:
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
@@ -2978,9 +2978,9 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.1(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       '@opentelemetry/sql-common': 0.40.0(@opentelemetry/api@1.4.1)
       '@types/pg': 8.6.1
       '@types/pg-pool': 2.0.3
@@ -3011,7 +3011,7 @@ packages:
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
       '@opentelemetry/redis-common': 0.36.0
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
@@ -3026,7 +3026,7 @@ packages:
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
       '@opentelemetry/redis-common': 0.36.0
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
@@ -3039,9 +3039,9 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.1(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
@@ -3055,7 +3055,7 @@ packages:
     dependencies:
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
@@ -3069,7 +3069,7 @@ packages:
     dependencies:
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       tslib: 2.5.2
     transitivePeerDependencies:
       - supports-color
@@ -3083,7 +3083,7 @@ packages:
     dependencies:
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/instrumentation': 0.41.2(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/semantic-conventions': 1.15.2
       '@types/tedious': 4.0.9
       tslib: 2.5.2
     transitivePeerDependencies:
@@ -3202,7 +3202,7 @@ packages:
       '@opentelemetry/api': ^1.0.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.1(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
       tslib: 2.5.2
     dev: false
 
@@ -3240,8 +3240,8 @@ packages:
       '@opentelemetry/api': ^1.0.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/resources': 1.15.1(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/resources': 1.15.2(@opentelemetry/api@1.4.1)
+      '@opentelemetry/semantic-conventions': 1.15.2
       tslib: 2.5.2
     dev: false
 
@@ -3252,9 +3252,9 @@ packages:
       '@opentelemetry/api': ^1.0.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.1(@opentelemetry/api@1.4.1)
-      '@opentelemetry/resources': 1.15.1(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
+      '@opentelemetry/resources': 1.15.2(@opentelemetry/api@1.4.1)
+      '@opentelemetry/semantic-conventions': 1.15.2
       tslib: 2.5.2
     dev: false
 
@@ -3265,8 +3265,8 @@ packages:
       '@opentelemetry/api': ^1.0.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/resources': 1.15.1(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/resources': 1.15.2(@opentelemetry/api@1.4.1)
+      '@opentelemetry/semantic-conventions': 1.15.2
       tslib: 2.5.2
     dev: false
 
@@ -3277,9 +3277,9 @@ packages:
       '@opentelemetry/api': ^1.0.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.1(@opentelemetry/api@1.4.1)
-      '@opentelemetry/resources': 1.15.1(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.15.1
+      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
+      '@opentelemetry/resources': 1.15.2(@opentelemetry/api@1.4.1)
+      '@opentelemetry/semantic-conventions': 1.15.2
       gcp-metadata: 5.3.0
       tslib: 2.5.2
     transitivePeerDependencies:
@@ -3415,7 +3415,7 @@ packages:
       '@opentelemetry/api': ^1.1.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.1(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
     dev: false
 
   /@panva/hkdf@1.1.1:
@@ -4353,12 +4353,12 @@ packages:
       '@types/node': 18.16.0
     dev: false
 
-  /@typescript-eslint/eslint-plugin@5.59.6(@typescript-eslint/parser@5.59.6)(eslint@8.40.0)(typescript@5.1.6):
-    resolution: {integrity: sha512-sXtOgJNEuRU5RLwPUb1jxtToZbgvq3M6FPpY4QENxoOggK+UpTxUBpj6tD8+Qh2g46Pi9We87E+eHnUw8YcGsw==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+  /@typescript-eslint/eslint-plugin@6.6.0(@typescript-eslint/parser@5.59.6)(eslint@8.40.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-CW9YDGTQnNYMIo5lMeuiIG08p4E0cXrXTbcZ2saT/ETE7dWUrNxlijsQeU04qAAKkILiLzdQz+cGFxCJjaZUmA==}
+    engines: {node: ^16.0.0 || >=18.0.0}
     peerDependencies:
-      '@typescript-eslint/parser': ^5.0.0
-      eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
+      '@typescript-eslint/parser': ^6.0.0 || ^6.0.0-alpha
+      eslint: ^7.0.0 || ^8.0.0
       typescript: '*'
     peerDependenciesMeta:
       typescript:
@@ -4366,16 +4366,17 @@ packages:
     dependencies:
       '@eslint-community/regexpp': 4.5.1
       '@typescript-eslint/parser': 5.59.6(eslint@8.40.0)(typescript@5.1.6)
-      '@typescript-eslint/scope-manager': 5.59.6
-      '@typescript-eslint/type-utils': 5.59.6(eslint@8.40.0)(typescript@5.1.6)
-      '@typescript-eslint/utils': 5.59.6(eslint@8.40.0)(typescript@5.1.6)
+      '@typescript-eslint/scope-manager': 6.6.0
+      '@typescript-eslint/type-utils': 6.6.0(eslint@8.40.0)(typescript@5.1.6)
+      '@typescript-eslint/utils': 6.6.0(eslint@8.40.0)(typescript@5.1.6)
+      '@typescript-eslint/visitor-keys': 6.6.0
       debug: 4.3.4
       eslint: 8.40.0
-      grapheme-splitter: 1.0.4
+      graphemer: 1.4.0
       ignore: 5.2.4
-      natural-compare-lite: 1.4.0
-      semver: 7.5.1
-      tsutils: 3.21.0(typescript@5.1.6)
+      natural-compare: 1.4.0
+      semver: 7.5.4
+      ts-api-utils: 1.0.3(typescript@5.1.6)
       typescript: 5.1.6
     transitivePeerDependencies:
       - supports-color
@@ -4409,21 +4410,29 @@ packages:
       '@typescript-eslint/visitor-keys': 5.59.6
     dev: true
 
-  /@typescript-eslint/type-utils@5.59.6(eslint@8.40.0)(typescript@5.1.6):
-    resolution: {integrity: sha512-A4tms2Mp5yNvLDlySF+kAThV9VTBPCvGf0Rp8nl/eoDX9Okun8byTKoj3fJ52IJitjWOk0fKPNQhXEB++eNozQ==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+  /@typescript-eslint/scope-manager@6.6.0:
+    resolution: {integrity: sha512-pT08u5W/GT4KjPUmEtc2kSYvrH8x89cVzkA0Sy2aaOUIw6YxOIjA8ilwLr/1fLjOedX1QAuBpG9XggWqIIfERw==}
+    engines: {node: ^16.0.0 || >=18.0.0}
+    dependencies:
+      '@typescript-eslint/types': 6.6.0
+      '@typescript-eslint/visitor-keys': 6.6.0
+    dev: true
+
+  /@typescript-eslint/type-utils@6.6.0(eslint@8.40.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-8m16fwAcEnQc69IpeDyokNO+D5spo0w1jepWWY2Q6y5ZKNuj5EhVQXjtVAeDDqvW6Yg7dhclbsz6rTtOvcwpHg==}
+    engines: {node: ^16.0.0 || >=18.0.0}
     peerDependencies:
-      eslint: '*'
+      eslint: ^7.0.0 || ^8.0.0
       typescript: '*'
     peerDependenciesMeta:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/typescript-estree': 5.59.6(typescript@5.1.6)
-      '@typescript-eslint/utils': 5.59.6(eslint@8.40.0)(typescript@5.1.6)
+      '@typescript-eslint/typescript-estree': 6.6.0(typescript@5.1.6)
+      '@typescript-eslint/utils': 6.6.0(eslint@8.40.0)(typescript@5.1.6)
       debug: 4.3.4
       eslint: 8.40.0
-      tsutils: 3.21.0(typescript@5.1.6)
+      ts-api-utils: 1.0.3(typescript@5.1.6)
       typescript: 5.1.6
     transitivePeerDependencies:
       - supports-color
@@ -4432,6 +4441,11 @@ packages:
   /@typescript-eslint/types@5.59.6:
     resolution: {integrity: sha512-tH5lBXZI7T2MOUgOWFdVNUILsI02shyQvfzG9EJkoONWugCG77NDDa1EeDGw7oJ5IvsTAAGVV8I3Tk2PNu9QfA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dev: true
+
+  /@typescript-eslint/types@6.6.0:
+    resolution: {integrity: sha512-CB6QpJQ6BAHlJXdwUmiaXDBmTqIE2bzGTDLADgvqtHWuhfNP3rAOK7kAgRMAET5rDRr9Utt+qAzRBdu3AhR3sg==}
+    engines: {node: ^16.0.0 || >=18.0.0}
     dev: true
 
   /@typescript-eslint/typescript-estree@5.59.6(typescript@5.1.6):
@@ -4448,28 +4462,48 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.5.1
+      semver: 7.5.4
       tsutils: 3.21.0(typescript@5.1.6)
       typescript: 5.1.6
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@typescript-eslint/utils@5.59.6(eslint@8.40.0)(typescript@5.1.6):
-    resolution: {integrity: sha512-vzaaD6EXbTS29cVH0JjXBdzMt6VBlv+hE31XktDRMX1j3462wZCJa7VzO2AxXEXcIl8GQqZPcOPuW/Z1tZVogg==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+  /@typescript-eslint/typescript-estree@6.6.0(typescript@5.1.6):
+    resolution: {integrity: sha512-hMcTQ6Al8MP2E6JKBAaSxSVw5bDhdmbCEhGW/V8QXkb9oNsFkA4SBuOMYVPxD3jbtQ4R/vSODBsr76R6fP3tbA==}
+    engines: {node: ^16.0.0 || >=18.0.0}
     peerDependencies:
-      eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
+      typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@typescript-eslint/types': 6.6.0
+      '@typescript-eslint/visitor-keys': 6.6.0
+      debug: 4.3.4
+      globby: 11.1.0
+      is-glob: 4.0.3
+      semver: 7.5.4
+      ts-api-utils: 1.0.3(typescript@5.1.6)
+      typescript: 5.1.6
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@typescript-eslint/utils@6.6.0(eslint@8.40.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-mPHFoNa2bPIWWglWYdR0QfY9GN0CfvvXX1Sv6DlSTive3jlMTUy+an67//Gysc+0Me9pjitrq0LJp0nGtLgftw==}
+    engines: {node: ^16.0.0 || >=18.0.0}
+    peerDependencies:
+      eslint: ^7.0.0 || ^8.0.0
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.40.0)
       '@types/json-schema': 7.0.12
       '@types/semver': 7.5.0
-      '@typescript-eslint/scope-manager': 5.59.6
-      '@typescript-eslint/types': 5.59.6
-      '@typescript-eslint/typescript-estree': 5.59.6(typescript@5.1.6)
+      '@typescript-eslint/scope-manager': 6.6.0
+      '@typescript-eslint/types': 6.6.0
+      '@typescript-eslint/typescript-estree': 6.6.0(typescript@5.1.6)
       eslint: 8.40.0
-      eslint-scope: 5.1.1
-      semver: 7.5.1
+      semver: 7.5.4
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -4480,6 +4514,14 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
       '@typescript-eslint/types': 5.59.6
+      eslint-visitor-keys: 3.4.1
+    dev: true
+
+  /@typescript-eslint/visitor-keys@6.6.0:
+    resolution: {integrity: sha512-L61uJT26cMOfFQ+lMZKoJNbAEckLe539VhTxiGHrWl5XSKQgA0RTBZJW2HFPy5T0ZvPVSD93QsrTKDkfNwJGyQ==}
+    engines: {node: ^16.0.0 || >=18.0.0}
+    dependencies:
+      '@typescript-eslint/types': 6.6.0
       eslint-visitor-keys: 3.4.1
     dev: true
 
@@ -6331,14 +6373,6 @@ packages:
       string.prototype.matchall: 4.0.8
     dev: true
 
-  /eslint-scope@5.1.1:
-    resolution: {integrity: sha512-2NxwbF/hZ0KpepYN0cNbo+FN6XoK7GaHlQhgx/hIZl6Va0bF45RQOOwhLIy8lQDbuCiadSLCBnH2CFYquit5bw==}
-    engines: {node: '>=8.0.0'}
-    dependencies:
-      esrecurse: 4.3.0
-      estraverse: 4.3.0
-    dev: true
-
   /eslint-scope@7.2.0:
     resolution: {integrity: sha512-DYj5deGlHBfMt15J7rdtyKNq/Nqlv5KfU4iodrQ019XESsRnwXH9KAE0y3cwtUHDo2ob7CypAnCqefh6vioWRw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
@@ -6422,11 +6456,6 @@ packages:
     engines: {node: '>=4.0'}
     dependencies:
       estraverse: 5.3.0
-    dev: true
-
-  /estraverse@4.3.0:
-    resolution: {integrity: sha512-39nnKffWz8xN1BU/2c79n9nB9HDzo0niYUqx6xyqUnyoAnQyyWpOTdZEeiCch8BBu515t4wp9ZmgVfVhn9EBpw==}
-    engines: {node: '>=4.0'}
     dev: true
 
   /estraverse@5.3.0:
@@ -6912,6 +6941,10 @@ packages:
 
   /grapheme-splitter@1.0.4:
     resolution: {integrity: sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==}
+    dev: true
+
+  /graphemer@1.4.0:
+    resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
     dev: true
 
   /gzip-size@6.0.0:
@@ -7821,10 +7854,6 @@ packages:
 
   /napi-build-utils@1.0.2:
     resolution: {integrity: sha512-ONmRUqK7zj7DWX0D9ADe03wbwOBZxNAfF20PlGfCWQcD3+/MakShIHrMqx9YwPTfxDdF1zLeL+RGZiR9kGMLdg==}
-    dev: true
-
-  /natural-compare-lite@1.4.0:
-    resolution: {integrity: sha512-Tj+HTDSJJKaZnfiuw+iaF9skdPpTo2GtEly5JHnWV/hfv2Qj/9RKsGISQtLh2ox3l5EAGw487hnBee0sIJ6v2g==}
     dev: true
 
   /natural-compare@1.4.0:
@@ -8835,14 +8864,6 @@ packages:
     hasBin: true
     dev: true
 
-  /semver@7.5.1:
-    resolution: {integrity: sha512-Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dependencies:
-      lru-cache: 6.0.0
-    dev: true
-
   /semver@7.5.4:
     resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
     engines: {node: '>=10'}
@@ -9354,6 +9375,15 @@ packages:
   /tr46@0.0.3:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
     dev: false
+
+  /ts-api-utils@1.0.3(typescript@5.1.6):
+    resolution: {integrity: sha512-wNMeqtMz5NtwpT/UZGY5alT+VoKdSsOOP/kqHFcUW1P/VRhH2wJ48+DN2WwUliNbQ976ETwDL0Ifd2VVvgonvg==}
+    engines: {node: '>=16.13.0'}
+    peerDependencies:
+      typescript: '>=4.2.0'
+    dependencies:
+      typescript: 5.1.6
+    dev: true
 
   /ts-node@10.9.1(@types/node@18.16.0)(typescript@5.1.6):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
