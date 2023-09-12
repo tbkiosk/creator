@@ -1,9 +1,10 @@
 import { Avatar, Box, Group, Menu, Text } from '@mantine/core'
 import { signOut, useSession } from 'next-auth/react'
-import { maskAddress } from '@/utils/address'
-import { isAddress } from 'viem'
-import React from 'react'
 import Link from 'next/link'
+import React from 'react'
+import { isAddress } from 'viem'
+
+import { maskAddress } from '@/utils/address'
 
 const EthIcon = (
   <svg

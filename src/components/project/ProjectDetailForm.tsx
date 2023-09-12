@@ -1,14 +1,15 @@
-import { FormLayout } from '@/components/form/FormLayout'
 import { Stack } from '@mantine/core'
-import { FormTitle } from '@/components/form/FormTitle'
 import { Category, ProjectBlockchain, ProjectStage } from '@prisma/client'
+
 import { FormInput } from '@/components/form/FormInput'
+import { FormLayout } from '@/components/form/FormLayout'
 import { FormMultiSelect } from '@/components/form/FormMultiSelect'
-import { FormTextArea } from '@/components/form/FormTextArea'
 import { FormTag } from '@/components/form/FormTag'
-import { pascalToNormal } from '@/utils/string'
-import { useProjectFormStore } from '@/store'
+import { FormTextArea } from '@/components/form/FormTextArea'
+import { FormTitle } from '@/components/form/FormTitle'
 import { categoryLabelMapping } from '@/schemas'
+import { useProjectFormStore } from '@/store'
+import { pascalToNormal } from '@/utils/string'
 
 type Props = {
   isDisabled: boolean

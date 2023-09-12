@@ -1,6 +1,6 @@
-import { Modal, Text, Image, Group, Center, Button } from '@mantine/core'
-import { useRouter } from 'next/router'
+import { Button, Center, Group, Image, Modal, Text } from '@mantine/core'
 import { useMediaQuery } from '@mantine/hooks'
+import { useRouter } from 'next/router'
 
 type ProjectReviewAlertProps = {
   opened: boolean

@@ -1,7 +1,8 @@
+import { Box, Group, Image, Text } from '@mantine/core'
 import { type Project } from '@prisma/client'
-import { Box, Text, Image, Group } from '@mantine/core'
-import { Tag } from '@/components/common/Tag'
 import Link from 'next/link'
+
+import { Tag } from '@/components/common/Tag'
 import { categoryLabelMapping } from '@/schemas'
 
 type Props = {

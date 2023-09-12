@@ -1,6 +1,7 @@
-import { ProjectStatus, ProjectStage } from '@prisma/client'
-import { type ProjectCreateOrUpdateSchemaType } from '@/schemas'
+import { ProjectStage, ProjectStatus } from '@prisma/client'
 import { create } from 'zustand'
+
+import { type ProjectCreateOrUpdateSchemaType } from '@/schemas'
 
 type UpdateField = <K extends keyof ProjectCreateOrUpdateSchemaType>(field: K, value: ProjectCreateOrUpdateSchemaType[K]) => void
 

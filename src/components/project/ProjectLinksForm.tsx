@@ -1,7 +1,8 @@
-import { FormLayout } from '@/components/form/FormLayout'
 import { Stack } from '@mantine/core'
-import { FormTitle } from '@/components/form/FormTitle'
+
 import { FormInput } from '@/components/form/FormInput'
+import { FormLayout } from '@/components/form/FormLayout'
+import { FormTitle } from '@/components/form/FormTitle'
 import { useProjectFormStore } from '@/store'
 
 const WebsiteIcon = () => (

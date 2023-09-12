@@ -1,11 +1,12 @@
-import Head from 'next/head'
-import { ProjectForm } from '@/components/project/ProjectForm'
-import React from 'react'
-import { Layout } from '@/components/layout/Layout'
-import { api } from '@/utils/api'
-import { useRouter } from 'next/router'
 import { Alert, Center, Loader } from '@mantine/core'
 import { IconAlertCircle } from '@tabler/icons-react'
+import Head from 'next/head'
+import { useRouter } from 'next/router'
+import React from 'react'
+
+import { Layout } from '@/components/layout/Layout'
+import { ProjectForm } from '@/components/project/ProjectForm'
+import { api } from '@/utils/api'
 
 export default function ProjectEdit() {
   const { query } = useRouter()

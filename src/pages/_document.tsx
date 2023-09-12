@@ -1,5 +1,6 @@
-import Document, { type DocumentContext, Html, Main, NextScript, Head } from 'next/document'
 import { ServerStyles, createStylesServer } from '@mantine/next'
+import Document, { type DocumentContext, Head, Html, Main, NextScript } from 'next/document'
+
 import { emotionCache } from '@/utils/emotion-cache'
 
 const stylesServer = createStylesServer(emotionCache)

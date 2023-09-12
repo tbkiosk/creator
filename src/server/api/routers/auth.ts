@@ -1,7 +1,8 @@
-import { z } from 'zod'
-import { createTRPCRouter, protectedProcedure } from '@/server/api/trpc'
 import { type Hex, recoverMessageAddress } from 'viem'
+import { z } from 'zod'
+
 import { EthereumVerificationMessage } from '@/constants'
+import { createTRPCRouter, protectedProcedure } from '@/server/api/trpc'
 import { prisma } from '@/server/db'
 
 export const authRouter = createTRPCRouter({

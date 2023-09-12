@@ -1,5 +1,5 @@
-import { Dropzone } from '@mantine/dropzone'
 import { Center } from '@mantine/core'
+import { Dropzone } from '@mantine/dropzone'
 import { IconUpload, IconX } from '@tabler/icons-react'
 
 export const DropZoneStateIcon = () => {

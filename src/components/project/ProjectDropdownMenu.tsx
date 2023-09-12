@@ -1,9 +1,10 @@
-import { useRouter } from 'next/router'
-import { api } from '@/utils/api'
-import { notifications } from '@mantine/notifications'
 import { ActionIcon, Menu, Text } from '@mantine/core'
-import { IconEdit, IconTrash } from '@tabler/icons-react'
 import { modals } from '@mantine/modals'
+import { notifications } from '@mantine/notifications'
+import { IconEdit, IconTrash } from '@tabler/icons-react'
+import { useRouter } from 'next/router'
+
+import { api } from '@/utils/api'
 
 type Props = {
   id: string

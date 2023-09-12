@@ -1,14 +1,15 @@
 import { Button, Card, Group, Skeleton, Stack, Text } from '@mantine/core'
-import { signIn, useSession } from 'next-auth/react'
-import { maskAddress } from '@/utils/address'
-import { useState } from 'react'
-import { useConnectModal } from '@rainbow-me/rainbowkit'
-import { useAccount, useSignMessage } from 'wagmi'
-import { api } from '@/utils/api'
-import { notifications } from '@mantine/notifications'
-import { EthereumVerificationMessage } from '@/constants'
 import { useDidUpdate } from '@mantine/hooks'
+import { notifications } from '@mantine/notifications'
+import { useConnectModal } from '@rainbow-me/rainbowkit'
+import { signIn, useSession } from 'next-auth/react'
+import { useState } from 'react'
+import { useAccount, useSignMessage } from 'wagmi'
+
+import { EthereumVerificationMessage } from '@/constants'
 import { WalletLoginProviders } from '@/providers/WalletLoginProviders'
+import { maskAddress } from '@/utils/address'
+import { api } from '@/utils/api'
 
 export const AccountOptions = () => {
   const { data, update, status } = useSession()

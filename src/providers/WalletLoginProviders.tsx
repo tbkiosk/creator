@@ -1,12 +1,13 @@
+import { RainbowKitProvider, getDefaultWallets } from '@rainbow-me/rainbowkit'
+import '@rainbow-me/rainbowkit/styles.css'
 import React from 'react'
-import { configureChains, createConfig, WagmiConfig } from 'wagmi'
+import { WagmiConfig, configureChains, createConfig } from 'wagmi'
 import { bsc, mainnet, polygon } from 'wagmi/chains'
 import { alchemyProvider } from 'wagmi/providers/alchemy'
-import { env } from '@/env.mjs'
 import { publicProvider } from 'wagmi/providers/public'
-import { getDefaultWallets, RainbowKitProvider } from '@rainbow-me/rainbowkit'
+
+import { env } from '@/env.mjs'
 import { type GetSiweMessageOptions, RainbowKitSiweNextAuthProvider } from '@/providers/RainbowKitSiweNextAuthProvider'
-import '@rainbow-me/rainbowkit/styles.css'
 
 type Props = {
   children: React.ReactNode

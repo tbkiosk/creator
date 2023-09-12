@@ -1,9 +1,10 @@
 import { Box, Button, Text } from '@mantine/core'
+import { useConnectModal } from '@rainbow-me/rainbowkit'
 import { signIn } from 'next-auth/react'
 import React, { useEffect } from 'react'
-import { useConnectModal } from '@rainbow-me/rainbowkit'
-import { WalletLoginProviders } from '@/providers/WalletLoginProviders'
 import { useDisconnect } from 'wagmi'
+
+import { WalletLoginProviders } from '@/providers/WalletLoginProviders'
 
 const DiscordIcon = () => (
   <svg

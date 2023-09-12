@@ -1,10 +1,11 @@
-import React from 'react'
-import { Box, Container, Group } from '@mantine/core'
-import { UserProfile } from '@/components/layout/UserProfile'
-import Link from 'next/link'
-import { MantineProviders } from '@/providers/MantineProviders'
 import { ErrorBoundary, HighlightInit } from '@highlight-run/next/client'
+import { Box, Container, Group } from '@mantine/core'
+import Link from 'next/link'
+import React from 'react'
+
 import { Footer } from '@/components/layout/Footer'
+import { UserProfile } from '@/components/layout/UserProfile'
+import { MantineProviders } from '@/providers/MantineProviders'
 
 type Props = {
   children: React.ReactNode

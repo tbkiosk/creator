@@ -1,17 +1,18 @@
 import { PrismaAdapter } from '@next-auth/prisma-adapter'
+import { type DiscordProfile as DiscordProfileType, type Role, type TwitterProfile as TwitterProfileType } from '@prisma/client'
 import { type GetServerSidePropsContext } from 'next'
-import { type DefaultSession, getServerSession, type NextAuthOptions } from 'next-auth'
-import TwitterProvider from 'next-auth/providers/twitter'
-import DiscordProvider from 'next-auth/providers/discord'
+import { type DefaultSession, type NextAuthOptions, getServerSession } from 'next-auth'
+import { type CtxOrReq } from 'next-auth/client/_utils'
 import CredentialsProvider from 'next-auth/providers/credentials'
+import DiscordProvider from 'next-auth/providers/discord'
+import { type DiscordProfile } from 'next-auth/providers/discord'
+import TwitterProvider from 'next-auth/providers/twitter'
+import { getCsrfToken } from 'next-auth/react'
+import { SiweMessage } from 'siwe'
+import { z } from 'zod'
+
 import { env } from '@/env.mjs'
 import { prisma } from '@/server/db'
-import { SiweMessage } from 'siwe'
-import { getCsrfToken } from 'next-auth/react'
-import { type CtxOrReq } from 'next-auth/client/_utils'
-import { z } from 'zod'
-import { type DiscordProfile } from 'next-auth/providers/discord'
-import { type TwitterProfile as TwitterProfileType, type DiscordProfile as DiscordProfileType, type Role } from '@prisma/client'
 
 /**
  * Module augmentation for `next-auth` types. Allows us to add custom properties to the `session`

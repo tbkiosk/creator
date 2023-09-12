@@ -1,8 +1,9 @@
-import { FormLayout } from '@/components/form/FormLayout'
 import { Stack } from '@mantine/core'
+
+import { FormLayout } from '@/components/form/FormLayout'
 import { FormTitle } from '@/components/form/FormTitle'
-import { LogoUpload } from '@/components/project/LogoUpload'
 import { BannerImage } from '@/components/project/BannerImage'
+import { LogoUpload } from '@/components/project/LogoUpload'
 import { PreviewImage } from '@/components/project/PreviewImage'
 import { useProjectFormStore } from '@/store'
 

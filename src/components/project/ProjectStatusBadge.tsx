@@ -1,5 +1,6 @@
 import { Badge } from '@mantine/core'
 import { ProjectStatus } from '@prisma/client'
+
 import { pascalToNormal } from '@/utils/string'
 
 type Props = {

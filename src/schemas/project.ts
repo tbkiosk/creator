@@ -1,5 +1,5 @@
+import { Category, ProjectBlockchain, ProjectStage, ProjectStatus } from '@prisma/client'
 import { z } from 'zod'
-import { ProjectStatus, ProjectStage, ProjectBlockchain, Category } from '@prisma/client'
 
 export const projectCreateOrUpdateSchema = z.object({
   id: z.string().optional(),

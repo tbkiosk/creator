@@ -1,7 +1,8 @@
 import { Box, Loader, Text } from '@mantine/core'
-import Head from 'next/head'
-import { Layout } from '@/components/layout/Layout'
 import dynamic from 'next/dynamic'
+import Head from 'next/head'
+
+import { Layout } from '@/components/layout/Layout'
 
 const AccountConnect = dynamic(() => import('@/components/settings/AccountConnect'), {
   loading: () => (

@@ -1,5 +1,6 @@
 import { Select } from '@mantine/core'
 import React from 'react'
+
 import { DropdownIcon } from '@/components/form/DropdownIcon'
 
 export const FormSelect = (props: React.ComponentProps<typeof Select>) => {

@@ -1,8 +1,8 @@
-import { createTRPCRouter } from '@/server/api/trpc'
+import { adminRouter } from '@/server/api/routers/admin'
 import { authRouter } from '@/server/api/routers/auth'
 import { projectRouter } from '@/server/api/routers/project'
 import { uploadRouter } from '@/server/api/routers/upload'
-import { adminRouter } from '@/server/api/routers/admin'
+import { createTRPCRouter } from '@/server/api/trpc'
 
 /**
  * This is the primary router for your server.

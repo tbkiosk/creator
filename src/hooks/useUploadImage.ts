@@ -1,7 +1,8 @@
-import { useState } from 'react'
-import { api } from '@/utils/api'
-import { notifications } from '@mantine/notifications'
 import { type FileWithPath } from '@mantine/dropzone'
+import { notifications } from '@mantine/notifications'
+import { useState } from 'react'
+
+import { api } from '@/utils/api'
 
 export const useUploadImage = () => {
   const [isUploading, setIsUploading] = useState(false)

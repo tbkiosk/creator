@@ -1,11 +1,12 @@
-import { useState } from 'react'
-import { Dropzone, type DropzoneProps, IMAGE_MIME_TYPE } from '@mantine/dropzone'
-import { useUploadImage } from '@/hooks/useUploadImage'
-import { useDidUpdate } from '@mantine/hooks'
 import { Box, Center, Image, SimpleGrid, Stack, Text } from '@mantine/core'
+import { Dropzone, type DropzoneProps, IMAGE_MIME_TYPE } from '@mantine/dropzone'
+import { useDidUpdate } from '@mantine/hooks'
 import { notifications } from '@mantine/notifications'
-import { DropZoneStateIcon } from '@/components/project/DropZoneStateIcon'
+import { useState } from 'react'
+
 import { CloseButton } from '@/components/project/CloseButton'
+import { DropZoneStateIcon } from '@/components/project/DropZoneStateIcon'
+import { useUploadImage } from '@/hooks/useUploadImage'
 
 type Props = {
   onImageUrlChange: (url: string[]) => void

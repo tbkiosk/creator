@@ -1,8 +1,9 @@
 import { Center, Loader } from '@mantine/core'
-import Head from 'next/head'
-import { Layout } from '@/components/layout/Layout'
 import { useSession } from 'next-auth/react'
 import dynamic from 'next/dynamic'
+import Head from 'next/head'
+
+import { Layout } from '@/components/layout/Layout'
 
 const Spinner = () => {
   return (

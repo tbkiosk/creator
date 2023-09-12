@@ -1,10 +1,11 @@
 import { Box, Button, Center, Loader, SimpleGrid, Text } from '@mantine/core'
-import Link from 'next/link'
-import { ProjectCard } from '@/components/project/ProjectCard'
-import { useSession } from 'next-auth/react'
-import { api } from '@/utils/api'
 import { useDidUpdate } from '@mantine/hooks'
 import { notifications } from '@mantine/notifications'
+import { useSession } from 'next-auth/react'
+import Link from 'next/link'
+
+import { ProjectCard } from '@/components/project/ProjectCard'
+import { api } from '@/utils/api'
 
 export const Project = () => {
   const { status } = useSession({

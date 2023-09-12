@@ -1,7 +1,8 @@
-import { adminProcedure, createTRPCRouter } from '@/server/api/trpc'
+import { type Prisma, ProjectStatus } from '@prisma/client'
 import { z } from 'zod'
+
+import { adminProcedure, createTRPCRouter } from '@/server/api/trpc'
 import { prisma } from '@/server/db'
-import { ProjectStatus, type Prisma } from '@prisma/client'
 
 export const adminRouter = createTRPCRouter({
   listProjects: adminProcedure

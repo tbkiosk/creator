@@ -1,11 +1,11 @@
-import { createTRPCRouter, protectedProcedure } from '@/server/api/trpc'
-
-import { prisma } from '@/server/db'
-import { projectCreateOrUpdateSchema } from '@/schemas/project'
-import { z } from 'zod'
 import { type Prisma, type Project } from '@prisma/client'
-import { sendInReviewAlertMessage } from '@/utils/slack'
+import { z } from 'zod'
+
 import { env } from '@/env.mjs'
+import { projectCreateOrUpdateSchema } from '@/schemas/project'
+import { createTRPCRouter, protectedProcedure } from '@/server/api/trpc'
+import { prisma } from '@/server/db'
+import { sendInReviewAlertMessage } from '@/utils/slack'
 
 const MAX_PROJECTS_FOR_USER = 10
 

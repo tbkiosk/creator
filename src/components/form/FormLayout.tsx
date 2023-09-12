@@ -1,5 +1,5 @@
-import React from 'react'
 import { Box } from '@mantine/core'
+import React from 'react'
 
 type FormLayoutProps = {
   children: React.ReactNode

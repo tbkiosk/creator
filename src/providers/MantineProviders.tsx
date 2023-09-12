@@ -1,9 +1,10 @@
-import React from 'react'
-import { emotionCache } from '@/utils/emotion-cache'
+import { MantineProvider } from '@mantine/core'
 import { ModalsProvider } from '@mantine/modals'
 import { Notifications } from '@mantine/notifications'
-import { MantineProvider } from '@mantine/core'
 import localFont from 'next/font/local'
+import React from 'react'
+
+import { emotionCache } from '@/utils/emotion-cache'
 
 const cera = localFont({
   src: [
