@@ -18,8 +18,8 @@ dependencies:
     specifier: ^4.0.0
     version: 4.0.0(@highlight-run/node@3.1.8)(highlight.run@7.4.0)(next@13.4.12)(react-dom@18.2.0)(react@18.2.0)
   '@mantine/carousel':
-    specifier: ^6.0.17
-    version: 6.0.17(@mantine/core@6.0.13)(@mantine/hooks@6.0.13)(embla-carousel-react@8.0.0-rc12)(react@18.2.0)
+    specifier: ^7.0.0
+    version: 7.0.0(@mantine/core@6.0.13)(@mantine/hooks@6.0.13)(embla-carousel-react@8.0.0-rc12)(react@18.2.0)
   '@mantine/core':
     specifier: ^6.0.13
     version: 6.0.13(@emotion/react@11.11.0)(@mantine/hooks@6.0.13)(@types/react@18.2.6)(react-dom@18.2.0)(react@18.2.0)
@@ -2082,17 +2082,16 @@ packages:
       '@lit-labs/ssr-dom-shim': 1.1.1
     dev: false
 
-  /@mantine/carousel@6.0.17(@mantine/core@6.0.13)(@mantine/hooks@6.0.13)(embla-carousel-react@8.0.0-rc12)(react@18.2.0):
-    resolution: {integrity: sha512-cKX7zGmWVXdq/mPff5QYaHLR2X6bujbR4YZ3Hs3TD8KuySTZDOHipUD9IAVH1DtYJRE0+FIRb6OeZ7X9/N2Erg==}
+  /@mantine/carousel@7.0.0(@mantine/core@6.0.13)(@mantine/hooks@6.0.13)(embla-carousel-react@8.0.0-rc12)(react@18.2.0):
+    resolution: {integrity: sha512-3GGEBU7primkZ+MUGjQYwtqRYaf1rdr3aQ+qc5RVXKizUkwMymceS1R8T8Zo+pwQf9si2+cvf5wBx/X7nJR+lw==}
     peerDependencies:
-      '@mantine/core': 6.0.17
-      '@mantine/hooks': 6.0.17
+      '@mantine/core': 7.0.0
+      '@mantine/hooks': 7.0.0
       embla-carousel-react: ^7.0.0
-      react: '>=16.8.0'
+      react: ^18.2.0
     dependencies:
       '@mantine/core': 6.0.13(@emotion/react@11.11.0)(@mantine/hooks@6.0.13)(@types/react@18.2.6)(react-dom@18.2.0)(react@18.2.0)
       '@mantine/hooks': 6.0.13(react@18.2.0)
-      '@mantine/utils': 6.0.17(react@18.2.0)
       embla-carousel-react: 8.0.0-rc12(react@18.2.0)
       react: 18.2.0
     dev: false
@@ -2247,14 +2246,6 @@ packages:
 
   /@mantine/utils@6.0.13(react@18.2.0):
     resolution: {integrity: sha512-iqIU9wurqAeccVbWjM0yr1JGne5VP+ob55M03QAXOEN4+ck93VDTjCkZJR2RFhDcs5q0twQFoOmU/gULR8aKIA==}
-    peerDependencies:
-      react: '>=16.8.0'
-    dependencies:
-      react: 18.2.0
-    dev: false
-
-  /@mantine/utils@6.0.17(react@18.2.0):
-    resolution: {integrity: sha512-U6SWV/asYE6NhiHx4ltmVZdQR3HwGVqJxVulhOylMcV1tX/P1LMQUCbGV2Oe4O9jbX4/YW5B/CBb4BbEhENQFQ==}
     peerDependencies:
       react: '>=16.8.0'
     dependencies:

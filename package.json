@@ -22,7 +22,7 @@
     "@aws-sdk/s3-request-presigner": "^3.352.0",
     "@emotion/react": "^11.11.0",
     "@highlight-run/next": "^4.0.0",
-    "@mantine/carousel": "^6.0.17",
+    "@mantine/carousel": "^7.0.0",
     "@mantine/core": "^6.0.13",
     "@mantine/dates": "^6.0.13",
     "@mantine/dropzone": "^6.0.13",
