@@ -24,7 +24,7 @@
     "@highlight-run/next": "^4.0.0",
     "@mantine/carousel": "^6.0.17",
     "@mantine/core": "^6.0.13",
-    "@mantine/dates": "^6.0.13",
+    "@mantine/dates": "^7.0.0",
     "@mantine/dropzone": "^6.0.13",
     "@mantine/form": "^6.0.13",
     "@mantine/hooks": "^6.0.13",
