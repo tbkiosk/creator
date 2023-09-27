@@ -142,7 +142,13 @@ export const Layout = ({ children, fullWidth }: Props) => {
         }}
       />
       <MantineProviders>
-        <Box>
+        <Box
+          sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            minHeight: '100vh',
+          }}
+        >
           <Box
             h={94}
             sx={{
@@ -167,6 +173,8 @@ export const Layout = ({ children, fullWidth }: Props) => {
           <Container
             size={fullWidth ? 'full' : 'lg'}
             px={fullWidth ? 0 : 'md'}
+            sx={{ flex: 1 }}
+            w={'100%'}
           >
             <Box>{children}</Box>
           </Container>

@@ -343,7 +343,7 @@ export default function AdminDashboard() {
         <tbody>{displayRow}</tbody>
       </Table>
       {data?.projects?.length && data.projects.length > 0 ? (
-        <Group mt={'md'}>
+        <Group my={'md'}>
           <Pagination
             value={currentPage}
             total={totalPage}

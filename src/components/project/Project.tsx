@@ -28,14 +28,10 @@ export const Project = () => {
   }, [error])
 
   return (
-    <Box mb={20}>
+    <Box>
       <Text
         size={42}
         fw={700}
-        mt={{
-          xs: 25,
-          md: 50,
-        }}
         color={'white.1'}
       >
         My Projects
